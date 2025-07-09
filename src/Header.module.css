@@ -1,0 +1,80 @@
+.header {
+  position: sticky; /* Make header sticky */
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top */
+  background: rgba(15, 12, 41, 0.7); /* Translucent dark background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+  color: #00ffff; /* Neon cyan for app name */
+  padding: 1rem 0;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); /* Glowing shadow */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.app-name {
+  margin: 0;
+  font-size: 2.2rem;
+  font-family: 'Poppins', sans-serif; /* Updated font */
+  text-shadow: 0 0 10px #00ffff; /* Neon glow */
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-left: 2rem;
+}
+
+.clock-widget {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: auto; /* Pushes the clock to the right */
+  margin-right: 2rem;
+  color: #00ff00; /* Neon green for clock */
+  text-shadow: 0 0 8px #00ff00; /* Neon glow */
+  font-family: 'Inter', sans-serif; /* Updated font */
+}
+
+.navigation a {
+  color: #FFD700; /* Bright yellow for links */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  font-family: 'Inter', sans-serif; /* Updated font */
+}
+
+.navigation a:hover {
+  color: #FFA500; /* Golden yellow on hover */
+  text-shadow: 0 0 10px #FFA500; /* Stronger glow on hover */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navigation ul {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+
+  .navigation li {
+    margin: 0.5rem 0;
+  }
+}

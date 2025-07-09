@@ -1,0 +1,24 @@
+.about-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #1a1a2e; /* Dark background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3); /* Neon glow */
+  color: #e0e0e0; /* Light text */
+  margin-bottom: 2rem;
+}
+
+.about-container h2,
+.about-container h3,
+.about-container h4 {
+  color: #00ffff; /* Neon cyan for headings */
+  font-family: 'Space Mono', monospace;
+  text-shadow: 0 0 10px #00ffff;
+  margin-bottom: 1rem;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}

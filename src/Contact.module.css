@@ -1,0 +1,45 @@
+.contact-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #1a1a2e; /* Dark background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3); /* Neon glow */
+  color: #e0e0e0; /* Light text */
+  margin-bottom: 2rem;
+}
+
+.contact-container h2,
+.contact-container h3 {
+  color: #00ffff; /* Neon cyan for headings */
+  font-family: 'Space Mono', monospace;
+  text-shadow: 0 0 10px #00ffff;
+  margin-bottom: 1rem;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.contact-container ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-container li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-container a {
+  color: #00ccff; /* Neon blue for links */
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contact-container a:hover {
+  color: #00ffff; /* Brighter neon cyan on hover */
+  text-shadow: 0 0 10px #00ffff;
+}

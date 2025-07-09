@@ -1,0 +1,39 @@
+.footer {
+  background-color: transparent; /* Handled by glass-card */
+  color: #00ffff; /* Neon cyan for text */
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: none; /* Handled by glass-card */
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  color: #00ffff; /* Neon cyan for icons */
+  font-size: 1.5rem;
+  margin: 0 0.8rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #00ccff; /* Brighter neon blue on hover */
+  text-shadow: 0 0 10px #00ccff; /* Stronger glow on hover */
+}

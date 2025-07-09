@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5; /* Very light, almost white background */
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTAgMTAuOTk5aDIwVjEwSDB2MC45OTl6TTAgMjAuOTk5aDIwVjIwSDB2MC45OTl6TTAgMC45OTloMjBWMHcwLjk5OXpNMTkuOTk5IDBoLTAuOTk5djIwSDE5Ljk5OVYwWiIvPjwvZz48L2c+PC9zdmc+'); /* Subtle noise/grid pattern */
+  background-size: 20px 20px; /* Small, repeating pattern */
+  background-blend-mode: normal; /* Remove blend mode */
+  color: #333333; /* Darker text for contrast */
+  min-height: 100vh; /* Ensure body takes full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1; /* Allow #root to grow and take available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure App takes full viewport height */
+}
+
+.main-content {
+  flex: 1; /* Allow main content to grow and push footer down */
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  color: #eee610; /* Bright yellow for links */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+a:hover {
+  color: #ffcc00e3; /* Golden yellow on hover */
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
